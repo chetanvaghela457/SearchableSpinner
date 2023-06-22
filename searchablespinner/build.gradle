@@ -7,8 +7,8 @@ plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
 }
-group='com.github.cvaghela'
-version = '1.0'
+group='com.github.chetan532'
+version = '1.0.0'
 
 android {
     namespace 'com.cvaghela.spinner.searchablespinner'
