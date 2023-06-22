@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/LnrLt_SearchListContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:layout_margin="10dp"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    android:visibility="visible"
+    card_view:cardBackgroundColor="#FFFFFF"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewSearch"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp">
+
+            <EditText
+                android:id="@+id/EdtTxt_SearchEditText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/editext_search_bg"
+                android:drawableStart="@drawable/ic_search"
+                android:drawablePadding="10dp"
+                android:enabled="true"
+                android:gravity="center_vertical"
+                android:hint="@string/search"
+                android:inputType="text"
+                android:maxLines="1"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textColor="#B9B9B9"
+                android:textSize="13sp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <ListView
+            android:id="@+id/LstVw_SpinnerListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:choiceMode="singleChoice"
+            android:divider="@null"
+            android:dividerHeight="0dp" />
+
+        <TextView
+            android:id="@+id/TxtVw_EmptyText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/empty_list" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

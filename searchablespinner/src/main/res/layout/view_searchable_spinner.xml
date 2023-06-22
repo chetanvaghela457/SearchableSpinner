@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/CrdVw_RevealContainer"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="10dp"
+        card_view:cardElevation="5dp"
+        card_view:cardBackgroundColor="@color/grey">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <LinearLayout
+                android:id="@+id/FrmLt_SelectedItem"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_centerInParent="true"
+                android:layout_toStartOf="@id/ImgVw_StartSearch"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:background="@null"
+                android:orientation="vertical"
+                android:paddingStart="10dp" />
+
+            <ImageView
+                android:id="@+id/ImgVw_StartSearch"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="20dp"
+                android:rotation="90"
+                android:src="@drawable/arrow_end" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</merge>

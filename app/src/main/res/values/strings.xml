@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Searchable Spinner</string>
+    <string name="no_selection">No Item Select</string>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <com.cvaghela.spinner.searchablespinner.SearchableSpinner
+        android:id="@+id/searchableSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:gravity="center_horizontal"
+        app:ItemsDivider="@drawable/divider_item"
+        app:DividerHeight="0.5dp"
+        app:SearchViewBackgroundColor="@color/black"
+        app:SearchHintText="Searrch Item"
+        app:SearchViewHintColor="@color/gray_200"
+        app:SearchViewTextColor="@color/white"
+        app:SearchCornerRadius="7dp"
+        app:SearchViewElevation="5dp"
+        app:ListItemColor="@color/white"
+        app:DropDownViewCornerRadius="15dp"
+        app:MainEntryText="Touch to select"
+        app:DropDownMainTextColor="@color/black"
+        app:SpinnerExpandHeight="250dp" />
+
+
+    <com.cvaghela.spinner.searchablespinner.SearchableSpinner
+        android:id="@+id/searchableSpinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:gravity="center_horizontal"
+        app:MainEntryText="Select Item"
+        app:DropDownViewCornerRadius="15dp"
+        app:DropDownMainTextColor="@color/black"
+        app:SpinnerExpandHeight="250dp" />
+
+
+    <com.cvaghela.spinner.searchablespinner.SearchableSpinner
+        android:id="@+id/searchableSpinner2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:gravity="center_horizontal"
+        app:MainEntryText="Select Item"
+        app:ItemsDivider="@drawable/divider_item"
+        app:DividerHeight="0.5dp"
+        app:DropDownViewCornerRadius="15dp"
+        app:MainDropDownListBackgroundColor="#57C9FC"
+        app:SearchViewBackgroundColor="@color/black"
+        app:SearchViewHintColor="@color/gray_200"
+        app:SearchViewTextColor="@color/white"
+        app:ListItemColor="#57C9FC"
+        app:DropDownMainTextColor="@color/black"
+        app:SpinnerExpandHeight="250dp" />
+
+
+    <com.cvaghela.spinner.searchablespinner.SearchableSpinner
+        android:id="@+id/searchableSpinner3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:gravity="center_horizontal"
+        app:MainEntryText="Drop down Items Select"
+        app:ItemsDivider="@drawable/divider_item"
+        app:MainDropDownListBackgroundColor="@color/light_red"
+        app:DropDownViewCornerRadius="15dp"
+        app:DropDownMainTextColor="@color/white"
+        app:SpinnerExpandHeight="250dp" />
+
+</LinearLayout>

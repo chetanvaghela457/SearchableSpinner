@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SearchableSpinner">
+        <attr name="KeepLastSearch" format="boolean" />
+        <attr name="AnimDuration" format="integer" />
+        <attr name="SpinnerExpandHeight" format="dimension" />
+        <attr name="NoItemsFoundText" format="string" />
+        <attr name="DropDownViewBackgroundColor" format="color" />
+        <attr name="DropDownMainTextColor" format="color" />
+        <attr name="DropDownViewCornerRadius" format="dimension" />
+        <attr name="DropDownViewElevation" format="dimension" />
+        <attr name="MainEntryText" format="string" />
+        <attr name="SearchViewIcon" format="reference" />
+        <attr name="SearchViewHintColor" format="color" />
+        <attr name="SearchViewTextColor" format="color" />
+        <attr name="SearchHintText" format="string" />
+        <attr name="SearchCornerRadius" format="dimension" />
+        <attr name="SearchViewElevation" format="dimension" />
+        <attr name="SearchViewBackgroundColor" format="color" />
+        <attr name="MainDropDownListBackgroundColor" format="color" />
+        <attr name="ListItemColor" format="color" />
+        <attr name="ItemsDivider" format="reference" />
+        <attr name="DividerHeight" format="dimension" />
+    </declare-styleable>
+</resources>
