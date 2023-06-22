@@ -1,5 +1,7 @@
 # SearchableSpinner
 
+![Demo SearchableSpinner](https://github.com/chetan532/SearchableSpinner/blob/main/video/demo.gif) 
+
 ## Usage
 
 Add the dependency to your build.gradle.
