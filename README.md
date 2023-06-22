@@ -5,7 +5,7 @@
 Add the dependency to your build.gradle.
 ```xml
 dependencies {
-	        implementation 'com.github.chetan532:SearchableSpinner:Tag'
+	        implementation 'com.github.chetan532:SearchableSpinner:1.0.0'
 	}
 ```
 
