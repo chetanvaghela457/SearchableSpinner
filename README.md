@@ -64,3 +64,26 @@ Usage on layout
         app:SpinnerExpandHeight="250dp" />
 
 ```
+
+Set Listner SetOnItemSelectedListener
+```java
+
+searchableSpinner.setOnItemSelectedListener(object : OnItemSelectedListener {
+                    override fun onItemSelected(view: View?, position: Int, id: Long) {
+                        Toast.makeText(
+                            this@MainActivity,
+                            "Item on position " + position + " : " + adapter.getItem(
+                                position
+                            ) + " Selected",
+                            Toast.LENGTH_SHORT
+                        ).show()
+                    }
+
+                    override fun onNothingSelected() {
+                        Toast.makeText(this@MainActivity, "Nothing Selected", Toast.LENGTH_SHORT)
+                            .show()
+                    }
+
+                })
+
+```
