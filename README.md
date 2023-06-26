@@ -1,6 +1,21 @@
 # SearchableSpinner
 
+The Searchable Spinner is an Android library designed to enhance the user experience by providing a searchable dropdown spinner UI component. It offers a customizable and intuitive way for users to select options from a dropdown list, making it easy to find and select items even in large datasets. The library allows for efficient filtering of options based on user input, enabling smooth navigation through long lists. With its seamless integration into your Android projects, the Searchable Spinner simplifies the process of implementing searchable dropdown spinners, providing a convenient solution for improved user interaction. Experience the benefits of this versatile library and enhance the usability of your Android applications today.
+
+Spinner with searchable items.
+
+Searchable Spinner is a dropdown spinner with a search feature that allows one to search the items loaded in the spinner.
+
 ![Demo SearchableSpinner](https://github.com/chetan532/SearchableSpinner/blob/main/video/demo.gif) 
+
+Keywords:- 
+
+1. Android Spinner
+2. Spinner Library
+3. Searchable Spinner
+4. Search in the Spinner
+5. Dropdown Searchable Spinner
+6. Filtering Items Using Searchable Spinner
 
 ## Usage
 
