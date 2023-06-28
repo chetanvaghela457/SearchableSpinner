@@ -6,7 +6,7 @@ buildscript {
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
-    id 'kotlin-android-extensions'
+    id 'maven-publish'
 }
 group='com.github.chetan532'
 version = '1.0.1'
@@ -19,7 +19,7 @@ android {
         minSdk 24
         targetSdk 33
         versionCode 2
-        versionName version
+        versionName '1.0.1'
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
