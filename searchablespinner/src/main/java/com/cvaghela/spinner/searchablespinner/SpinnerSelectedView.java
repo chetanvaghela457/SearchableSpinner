@@ -6,6 +6,10 @@ import android.view.View;
 
 import androidx.annotation.IdRes;
 
+/**
+ * Created by chetan532 on 28/6/23.
+ */
+
 public class SpinnerSelectedView implements Parcelable {
     public static final Creator<SpinnerSelectedView> CREATOR = new Creator<SpinnerSelectedView>() {
         @Override

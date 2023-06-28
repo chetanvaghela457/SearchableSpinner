@@ -51,6 +51,10 @@ import com.cvaghela.spinner.searchablespinner.interfaces.OnItemSelectedListener;
 import com.cvaghela.spinner.searchablespinner.tools.EditCursorColor;
 import com.cvaghela.spinner.searchablespinner.tools.UITools;
 
+/**
+ * Created by chetan532 on 28/6/23.
+ */
+
 public class SearchableSpinner extends RelativeLayout implements View.OnClickListener {
 
     private static final int DefaultElevation = 16;

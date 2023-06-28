@@ -3,7 +3,7 @@ package com.cvaghela.spinner.searchablespinner.tools;
 import android.content.Context;
 
 /**
- * Created by mudassar on 6/4/20.
+ * Created by chetan532 on 28/6/23.
  */
 
 public class UITools {

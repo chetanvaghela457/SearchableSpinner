@@ -3,7 +3,7 @@ package com.cvaghela.spinner.searchablespinner.interfaces;
 import android.view.View;
 
 /**
- * Created by mudassar on 6/4/20.
+ * Created by chetan532 on 28/6/23.
  */
 
 public interface OnItemSelectedListener {
